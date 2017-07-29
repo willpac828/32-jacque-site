@@ -3,8 +3,18 @@
 
 // $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
+
 $m-gutter: 1rem;
+
+// fonts
+$f-wow: 'Dancing Script', cursive;
+
+// colors
+$c-black: #000;
+$c-sauce: #aa2f2b;
 
 @import 'box-sizing';
 @import 'resets';
 @import 'nav';
+@import 'hero';
+@import 'about';

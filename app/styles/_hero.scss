@@ -1,0 +1,23 @@
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: $m-gutter * 20;
+  background-color: $c-sauce;
+  // background-image: url('/public/images/sunset.jpg');
+
+  &__header {
+    font-family: $f-wow;
+    font-size: 5rem;
+  }
+
+  &__sub-header {
+    padding: $m-gutter;
+    border: 2px solid $c-black;
+    font-family: $f-wow;
+    font-size: 2rem;
+    box-shadow: 2px 2px 6px $c-black;
+  }
+}

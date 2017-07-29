@@ -1,15 +1,27 @@
 
-// Could
+// Could think about putting all nav items in one div so evenly spaced
 .nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%;
+  padding: ($m-gutter / 2) ($m-gutter * 4);
+  background: grey;
 
   &__left {
     display: flex;
   }
 
+  &__title {
+    // font-size: 2rem;
+    // font-family: $f-wow;
+  }
+
   &__right {
     display: flex;
+  }
+
+  &__tab {
+    margin: $m-gutter;
   }
 }

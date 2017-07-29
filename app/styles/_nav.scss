@@ -1,0 +1,15 @@
+
+// Could
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &__left {
+    display: flex;
+  }
+
+  &__right {
+    display: flex;
+  }
+}

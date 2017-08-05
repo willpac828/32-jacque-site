@@ -7,6 +7,8 @@
   width: 100%;
   padding: ($m-gutter / 2) ($m-gutter * 4);
   background: grey;
+  color: white;
+  font-family: $f-wow;
 
   &__left {
     display: flex;

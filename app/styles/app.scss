@@ -7,11 +7,16 @@
 $m-gutter: 1rem;
 
 // fonts
-$f-wow: 'Dancing Script', cursive;
+$f-marquee: 'Monoton', cursive;
+$f-header: 'Raleway', sans-serif;
+
+
 
 // colors
 $c-black: #000;
 $c-sauce: #aa2f2b;
+$c-dim: rgba(255, 255, 255, 0.4);
+$c-white: #fff;
 
 @import 'box-sizing';
 @import 'resets';

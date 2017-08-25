@@ -3,38 +3,45 @@
 .nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
   padding: 0 ($m-gutter * 4);
   background: $c-black;
 
+  & a {
+    align-self: center;
+    color: $c-dim;
+    text-decoration: none;
+  }
+
   &__left {
     display: flex;
+    // justify-content: space-around;
+    margin: 0;
     color: $c-dim;
     font-family: $f-header;
-    margin: 0;
   }
 
   &__title {
+    margin: 0 ($m-gutter * 3);
     color: $c-white;
     font-family: $f-marquee;
     font-size: 4rem;
-    margin: 0;
   }
 
   &__right {
     display: flex;
+    margin: 0;
     color: $c-dim;
     font-family: $f-header;
-    margin: 0;
   }
 
   &__tab {
     margin: $m-gutter;
-    align-self: center;
-  }
 
-  &__tab:hover {
-    color: $c-white;
+    &:hover {
+      color: $c-white;
+      cursor: pointer;
+    }
   }
 }

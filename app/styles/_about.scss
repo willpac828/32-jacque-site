@@ -1,5 +1,23 @@
 .about {
   padding: 1rem;
   background: $c-black;
+  color: $c-white;
+  font-family: bitter;
   text-align: center;
+}
+
+.summary {
+  max-width: 45rem;
+  margin: 0 auto;
+  padding: $m-gutter 0;
+
+  &__item {
+    margin: ($m-gutter * 2) 0;
+    font-family: inherit;
+    letter-spacing: 0.15rem;
+    font-size: 1.25rem;
+    text-align: left;
+    text-indent: $m-gutter * 2;
+  }
+
 }

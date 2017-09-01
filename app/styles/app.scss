@@ -1,8 +1,8 @@
 // @import 'yoga';
 // @import 'normalize';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+@import 'font-awesome';
 
 $m-gutter: 1rem;
 
@@ -26,3 +26,4 @@ $c-gold: #d7bd32;
 @import 'hero';
 @import 'about';
 @import 'news';
+@import 'footer';

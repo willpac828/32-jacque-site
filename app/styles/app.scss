@@ -9,18 +9,20 @@ $m-gutter: 1rem;
 // fonts
 $f-marquee: 'Monoton', cursive;
 $f-header: 'Raleway', sans-serif;
-
-
+$f-demo: 'Dosis', sans-serif;
 
 // colors
 $c-black: #000;
-$c-sauce: #700c09;
+$c-sauce: #e6221d;
 $c-dim: rgba(255, 255, 255, 0.4);
 $c-white: #fff;
 $c-about: rgba(255, 255, 255, 0.8);
+$c-underline: #888;
+$c-gold: #d7bd32;
 
 @import 'box-sizing';
 @import 'resets';
 @import 'nav';
 @import 'hero';
 @import 'about';
+@import 'news';

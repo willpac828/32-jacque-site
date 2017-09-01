@@ -3,16 +3,16 @@
 .nav {
   display: flex;
   position: absolute;
-  flex-direction: row;
   justify-content: center;
   width: 100%;
-  padding: 0 ($m-gutter * 4);
+  padding: $m-gutter 0;
   background: $c-black;
-  opacity: 0.75;
+  opacity: 0.7;
 
   & a {
     align-self: center;
-    color: $c-dim;
+    color: $c-white;
+    font-weight: 600;
     text-decoration: none;
   }
 
@@ -20,22 +20,22 @@
     display: flex;
     // justify-content: space-around;
     margin: 0;
-    color: $c-dim;
-    font-family: $f-header;
+    font-family: $f-demo;
+    font-size: 1.5rem;
   }
 
   &__title {
     margin: 0 ($m-gutter * 3);
     color: $c-white;
     font-family: $f-marquee;
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   &__right {
     display: flex;
     margin: 0;
-    color: $c-dim;
-    font-family: $f-header;
+    font-family: $f-demo;
+    font-size: 1.5rem;
   }
 
   &__tab {

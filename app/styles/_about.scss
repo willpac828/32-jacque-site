@@ -11,11 +11,19 @@
   margin: 0 auto;
   padding: $m-gutter 0;
 
+  &__header {
+    max-width: 15rem;
+    margin: 0 auto;
+    padding: $m-gutter;
+    border-bottom: 1px solid $c-underline;
+    font-family: bitter;
+  }
+
   &__item {
     margin: ($m-gutter * 2) 0;
     font-family: inherit;
-    letter-spacing: 0.15rem;
     font-size: 1.25rem;
+    letter-spacing: 0.15rem;
     text-align: left;
     text-indent: $m-gutter * 2;
   }

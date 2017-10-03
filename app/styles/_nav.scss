@@ -29,6 +29,7 @@
     color: $c-white;
     font-family: $f-marquee;
     font-size: 3rem;
+    text-shadow: 2px 2px 5px $c-white;
   }
 
   &__right {
@@ -40,9 +41,11 @@
 
   &__tab {
     margin: $m-gutter;
+    transition: 0.5s;
 
     &:hover {
       color: $c-sauce;
+      font-size: 1.7rem;
       cursor: pointer;
     }
   }
